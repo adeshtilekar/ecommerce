@@ -112,7 +112,7 @@ const Header = () => {
             <ul className="phone-wrap">
               <li>
                 <span>Telephone Enquiry:</span>
-                <a href="#">(+123) 123 321 345</a>
+                <a href="#">(+91) 7350721331</a>
               </li>
             </ul>
           </div>
@@ -180,7 +180,8 @@ const Header = () => {
         <div className="col-lg-3 col-md-4">
           <div className="logo pb-sm-30 pb-xs-30">
             <a href="index.html">
-              <img src="images/menu/logo/1.jpg" alt />
+              {/* <img src="images/menu/logo/1.jpg" alt /> */}
+              <h1>Lakhan</h1>
             </a>
           </div>
         </div>
