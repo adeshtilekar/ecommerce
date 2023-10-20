@@ -1,0 +1,141 @@
+/* Mini Cart Styles */
+
+.hm-minicart {
+    position: relative;
+}
+
+.hm-minicart-trigger {
+    cursor: pointer;
+}
+
+.minicart {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 9;
+    display: none;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    width: 290px;
+    background: #ffffff;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.minicart.is-active {
+    display: block;
+}
+
+.minicart-product-list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.minicart-product-list li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+
+.minicart-product-image {
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.minicart-product-details {
+    flex: 1;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.minicart-product-details h6 {
+    color: #333333;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.minicart-product-details h6 a {
+    color: #333333;
+}
+
+.minicart-total {
+    color: #555555;
+    font-size: 14px;
+    margin: 15px 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.minicart-total span {
+    font-size: 18px;
+    float: right;
+}
+
+
+/* Add more styles as needed */
+
+
+/* CSS for Setting Section */
+
+.ht-setting-trigger {
+    cursor: pointer;
+}
+
+.ht-setting-trigger.is-active,
+.ht-currency-trigger.is-active,
+.ht-language-trigger.is-active r,
+.hm-minicart-trigger.is-active {
+    transform: rotate(-180deg);
+}
+
+
+/* .ht-setting-trigger.is-active {
+    /* Add your active styles here */
+
+
+/* transform: rotate(-180deg);
+
+} */
+
+.setting {
+    display: none;
+    /* position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 9;
+    display: none;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    width: 290px;
+    background: #ffffff;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+.setting.is-active {
+    /* Add your active styles here */
+    display: block;
+}
+
+.ht-setting-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ht-setting-list li {
+    margin: 10px 0;
+}
+
+.ht-setting-list li a {
+    text-decoration: none;
+    color: #000000;
+    /* Adjust color as needed */
+}
