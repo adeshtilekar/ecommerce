@@ -36,7 +36,7 @@ console.log(e);
 useEffect(() => {
     getProduct();
 
-  },[query]);
+  },[]);
   return (
     <>
       <div className="product-area pt-60 pb-50">
