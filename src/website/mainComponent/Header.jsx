@@ -181,9 +181,10 @@ const Header = () => {
           <div className="logo pb-sm-30 pb-xs-30">
             <a href="index.html">
               {/* <img src="images/menu/logo/1.jpg" alt /> */}
-              <h1>Lakhan</h1>
+              <h1>Shiva_The_Boss</h1>
             </a>
           </div>
+          
         </div>
 
         <div className="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
