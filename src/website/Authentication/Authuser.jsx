@@ -26,7 +26,7 @@ const Authuser = () => {
   
     const http = axios.create({
         
-        baseURL:  "https://vsmart.ajspire.com/api",
+        baseURL:  "https://ecomapi.askonly.in/api",
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
